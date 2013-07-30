@@ -1,3 +1,3 @@
 exports.home = function (request, response) {
-    return response.send('Hello Ben!');
+    return response.render('base.jade', {title: "Ben"});
 }
